@@ -1,3 +1,5 @@
+import org.gradle.api.tasks.TaskInstantiationException
+
 plugins {
 	id "idea"
 	id "eclipse"
@@ -20,3 +22,4 @@ wrapper {
 	gradleVersion = "5.2.1"
 	distributionType = Wrapper.DistributionType.ALL
 }
+
