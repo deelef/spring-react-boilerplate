@@ -28,3 +28,31 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+
+*.metadata
+*bin
+*tmp
+*.settings
+*.iml
+*.classpath
+*.project
+.idea/
+*build/
+*/*/build/
+target/
+*/target/
+*/*/target/
+*/.settings/
+*/*/.settings/
+.gradle/
+*.generated
+target/
+.metadata/
+*bin
+*.svn
+gradle/caches/
+gradle/daemon/
+gradle/native/
+*/*/test-output/
+out/

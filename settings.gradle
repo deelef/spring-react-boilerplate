@@ -3,4 +3,9 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'spring-react-boilerplate'
+rootProject.name = projectName
+
+include "spring-react-boilerplate-ui"
+include "spring-react-boilerplate-api"
+
+
